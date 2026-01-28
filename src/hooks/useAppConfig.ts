@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react';
 import { AppConfig } from '../types';
 
 const DEFAULT_CONFIG: AppConfig = {
-    titleName: 'Calendario de exámenes',
-    subtitleName: 'colegiados',
-    semester: 'II semestre 2026',
-    footerText: 'Cátedra de Física General I - Escuela de Física'
+    titleName: 'Exam',
+    subtitleName: 'Calendar',
+    semester: 'Fall 2026',
+    footerText: 'Open Academic Institute'
 };
 
 export const useAppConfig = () => {

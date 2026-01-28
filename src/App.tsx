@@ -7,7 +7,7 @@ import ResultModal from './components/ResultModal';
 import Navbar from './components/Navbar';
 import ExamStats from './components/ExamStats';
 import Filters from './components/Filters';
-import { CalendarX } from 'lucide-react';
+import { CalendarX, Github } from 'lucide-react';
 import { useTheme } from './providers/ThemeContext';
 import { useExams } from './hooks/useExams';
 
@@ -202,8 +202,17 @@ const App: React.FC = () => {
 
       {/* Footer */}
       <footer className="mt-20 py-10 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <p className="text-sm text-slate-400 dark:text-slate-500 font-medium">© Cátedra de Física General I - Escuela de Física</p>
+        <div className="max-w-7xl mx-auto px-6 flex flex-col items-center gap-4">
+          <p className="text-sm text-slate-400 dark:text-slate-500 font-medium">© {config.footerText}</p>
+          <a
+            href="https://github.com/glacy/examplanner"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-300 transition-colors p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800"
+            aria-label="Ver repositorio en GitHub"
+          >
+            <Github size={20} />
+          </a>
         </div>
       </footer>
 
