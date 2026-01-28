@@ -63,8 +63,8 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina local:
 
 2.  **Clonar el repositorio** (o descargar los archivos):
     ```bash
-    git clone <url-del-repositorio>
-    cd planner
+    git clone https://github.com/glacy/examplanner.git
+    cd examplanner
     ```
 
 3.  **Instalar dependencias**:
