@@ -73,7 +73,7 @@ export const useExams = () => {
                 time: '10:00 AM',
                 location: 'Laboratorio de Cómputo 3',
                 topics: ['SQL', 'NoSQL', 'ETL', 'Data Warehousing'],
-                notes: 'Traer identificación oficial.'
+                notes: ''
             },
             {
                 id: '2',
@@ -81,7 +81,7 @@ export const useExams = () => {
                 subject: 'Inteligencia Artificial',
                 date: '2026-06-15', // Fecha actualizada a 2026
                 time: '12:30 PM',
-                location: 'Aula 201',
+                location: '',
                 topics: ['Deep Learning', 'Neural Networks', 'NLP'],
                 notes: 'Examen a libro abierto.'
             },
@@ -105,7 +105,7 @@ export const useExams = () => {
                 time: "08:00",
                 location: "B2-10",
                 topics: [],
-                notes: "Este examen no tiene valor sumativo",
+                notes: "",
                 formUrl: "",
             }
         ].sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
