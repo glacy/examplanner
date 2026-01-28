@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#planner-root {
+    @apply antialiased font-sans;
+}
+
+/* Force dark mode styles for native inputs inside the dark container */
+.dark #planner-root input[type="date"]::-webkit-calendar-picker-indicator,
+.dark #planner-root input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    cursor: pointer;
+}

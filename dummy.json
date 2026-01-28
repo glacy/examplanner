@@ -1,0 +1,15 @@
+[
+    {
+        "id": "test-1",
+        "title": "Examen de Prueba Inyectado",
+        "subject": "Testing 101",
+        "date": "2026-05-20",
+        "time": "10:00",
+        "location": "Virtual",
+        "topics": [
+            "Injection",
+            "Build"
+        ],
+        "status": "upcoming"
+    }
+]
