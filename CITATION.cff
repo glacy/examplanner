@@ -1,0 +1,20 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it using these metadata."
+title: "ExamPlanner"
+abstract: "Modern Academic Exam Planner built with React & TypeScript. Features offline-ready HTML export (Student Build), JSON data portability, and WCAG accessibility"
+authors:
+  - family-names: Lacy-Mora
+    given-names: Gerardo
+    orcid: "https://orcid.org/0000-0003-4361-3758"
+version: 0.1.0
+date-released: 2026-01-29
+license: MIT
+repository-code: "https://github.com/glacy/examplanner"
+keywords:
+  - edutech
+  - education
+  - planner
+  - react
+  - typescript
+  - tailwindcss
+  - accessibility
