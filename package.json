@@ -34,9 +34,17 @@
     "vite-plugin-singlefile": "^2.3.0",
     "vitest": "^4.0.18"
   },
-  "description": "",
+  "description": "Modern Academic Exam Planner built with React & TypeScript. Features offline-ready HTML export (Student Build), JSON data portability, and WCAG accessibility",
   "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "edutech",
+    "education",
+    "planner",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "accessibility"
+  ],
+  "author": "Gerardo Lacy-Mora",
+  "license": "MIT"
 }
